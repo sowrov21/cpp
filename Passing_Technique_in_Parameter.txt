@@ -1,0 +1,40 @@
+######..Simple Value passing
+
+ void function(int a)
+ {
+
+ }
+ int main()
+ {
+  int b;
+  cin>>b;
+  function(b); 
+ }
+
+
+######..Pointer passing
+
+ void function(int *a)
+ {
+   
+ }
+ int main()
+ {
+  int b;
+  cin>>b;
+  function(&b); //let b=4 so, &b= dn*5656 (b's address)=a and *a=4 
+ }
+
+
+###### Simple Array passing
+
+ void function(int a[])
+ {
+
+ }
+ int main()
+ {
+  int b[4];
+  cin>> b[4] using loop;
+  function(b); 
+ }
