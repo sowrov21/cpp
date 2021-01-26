@@ -1,4 +1,5 @@
 #####............######
+// Checking Git in remote repository
 
 #include <iostream>
 
