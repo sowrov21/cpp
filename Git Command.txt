@@ -1,0 +1,44 @@
+
+
+Working directory->" add "-> Stage -> " commit " -> Local Repository -> "Push" -> Remote Repository
+
+
+git add--all: working directory -> Stage
+git reset: working directory <- Stage
+
+git commit -m " message: I have changes this.." : Stage -> Local Repository
+git reset HEAD~ : Stage <- Local Repository
+
+
+git reset --hard: Back deleted files
+
+git rm file_name.extention: [Good than manually delete as auto stage done ]
+
+git branch : how much branches ?
+
+git branch branch_name : create new branch
+
+git checkout branch_name : switch master(default) -> other(branch_name) with all files
+
+git merge branch_name -m " message: I have changes this.. ": branch_name= the name with which you want to merge 
+
+ git config --list : Show Git Username & email
+*use q to quit
+
+
+-----------
+-----------
+
+…or create a new repository on the command line
+echo "# cpp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sowrov21/cpp.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/sowrov21/cpp.git
+git branch -M main
+git push -u origin main
