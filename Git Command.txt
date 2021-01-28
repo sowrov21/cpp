@@ -1,4 +1,4 @@
-
+﻿
 
 Working directory->" add "-> Stage -> " commit " -> Local Repository -> "Push" -> Remote Repository
 
@@ -25,12 +25,15 @@ git merge branch_name -m " message: I have changes this.. ": branch_name= the na
  git config --list : Show Git Username & email
 *use q to quit
 
-git pull origin dev
+
+ *pull the latest repo from remote updated by your teammate:
+
+git pull origin dev : git pull command
 
 ---------------
 local -> remote
 ---------------
->>>>>>> d17ee5a511941ddeefd364f6672faa59a25a338a
+
 
 …or create a new repository on the command line
 echo "# cpp" >> README.md
@@ -45,4 +48,4 @@ git push -u origin main
 git remote add origin https://github.com/sowrov21/cpp.git
 git branch -M main
 git push -u origin main
->>>>>>> d17ee5a511941ddeefd364f6672faa59a25a338a
+
