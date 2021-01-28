@@ -38,6 +38,9 @@ git branch -M main
 git remote add origin https://github.com/sowrov21/cpp.git
 git push -u origin main
 
+
+git pull 'remote_name' 'branch_name'
+
 …or push an existing repository from the command line
 git remote add origin https://github.com/sowrov21/cpp.git
 git branch -M main
