@@ -157,7 +157,7 @@ int main()
 
     ptr1=&num1;
     ptr2=&num2;
-    //cout<<"Result[Called by Address/Pointer]: "<<num1<<"*"<<num2<<" = "<<Multiplication(&num1,&num2)<<endl;
+    ///cout<<"Result[Called by Address/Pointer]: "<<num1<<"*"<<num2<<" = "<<Multiplication(&num1,&num2)<<endl;
     cout<<"Result[Called by Address/Pointer]: "<<num1<<"*"<<num2<<" = "<<Multiplication(ptr1,ptr2)<<endl;
     ///Call by Address/Pointer
 
@@ -166,7 +166,7 @@ int main()
     cout<<"-------------------------------------------"<<endl;
     cout<<"How Pointers or Address works. Shown below: "<<endl;
     cout<<"-------------------------------------------"<<endl;
-    cout<<"num1: "<<num1<<endl;
+    cout<<"num1: "<<num1<<endl;///let a=9
     cout<<"&num1: "<<&num1<<endl;
     cout<<"*ptr1: "<<*ptr1<<endl;
     cout<<"ptr1: "<<ptr1<<endl;
@@ -182,6 +182,8 @@ int main()
 
 int main()
 {
-    cout << "Hello world!" << endl;
+  cout << "Hello world!" << endl;
+
     return 0;
 }
+

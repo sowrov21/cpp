@@ -42,3 +42,5 @@ git push -u origin main
 git remote add origin https://github.com/sowrov21/cpp.git
 git branch -M main
 git push -u origin main
+
+git branch -m old_name new_name: rename branch
