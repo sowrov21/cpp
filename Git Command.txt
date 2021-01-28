@@ -25,7 +25,7 @@ git merge branch_name -m " message: I have changes this.. ": branch_name= the na
  git config --list : Show Git Username & email
 *use q to quit
 
-
+git branch -m old_name new_name: rename branch
 
 ---------------
 local -> remote
