@@ -1,28 +1,11 @@
-
-#include <iostream>
-#include <string>
-#include<conio.h>
-
+#include<iostream>
+#include<array>
 using namespace std;
-
-
 int main()
-{
-
-  char str[10];int _count=0;
- /* int a=0;
-  while(a<10)
-  {
-      cin>>str[a];
-      a++;
-  }
-*/
-gets(str);
-  for(int i=0; str[i]!='\0'; i++)
-  {
-      cout<<str[i];
-      cout<<_count++;
-  }
-
-    return 0;
+{  //Given array
+   array<int,5> arr{ 1, 2, 3, ven Array is: "<<arr.size();
+   return 0;
 }
+4, 5 };
+   //Using the size() function from STL
+   cout<<"\nThe length of the gi
