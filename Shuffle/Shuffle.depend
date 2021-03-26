@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1616292252 source:c:\users\mohammad sowrov\onedrive - american international university-bangladesh\desktop\shuffle\main.cpp
+	<iostream>
+	<algorithm>
+	<array>
+	<random>
+	<chrono>
+
