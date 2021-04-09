@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1611956830 source:c:\users\mukta\desktop\c++\reverse_array_element\main.cpp
+	<iostream>
+	<algorithm>
+

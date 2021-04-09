@@ -1,4 +1,4 @@
-
+ï»¿
 
 Working directory->" add "-> Stage -> " commit " -> Local Repository -> "Push" -> Remote Repository
 
@@ -7,6 +7,7 @@ git add--all: working directory -> Stage
 git reset: working directory <- Stage
 
 git commit -m " message: I have changes this.." : Stage -> Local Repository
+
 git reset HEAD~ : Stage <- Local Repository
 
 
@@ -23,13 +24,21 @@ git checkout branch_name : switch master(default) -> other(branch_name) with all
 git merge branch_name -m " message: I have changes this.. ": branch_name= the name with which you want to merge 
 
  git config --list : Show Git Username & email
+
+
 *use q to quit
 
 
-----------
-----------
+ *pull the latest repo from remote updated by your teammate:
 
-…or create a new repository on the command line
+git pull origin dev : git pull command
+
+---------------
+local -> remote
+---------------
+
+
+â€¦or create a new repository on the command line
 echo "# cpp" >> README.md
 git init
 git add README.md
@@ -38,9 +47,8 @@ git branch -M main
 git remote add origin https://github.com/sowrov21/cpp.git
 git push -u origin main
 
-…or push an existing repository from the command line
-git remote add origin https://github.com/sowrov21/cpp.git
+â€¦or push an existing repository from the command line
+git remote add origin https://github.com/sowrov21/UMS-java-core-.git
 git branch -M main
 git push -u origin main
 
-git branch -m old_name new_name: rename branch

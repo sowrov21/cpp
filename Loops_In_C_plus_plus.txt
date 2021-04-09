@@ -1,0 +1,14 @@
+Foreach:
+       for (element_declaration : array)
+       statement;
+ 
+example 1:      
+
+       int t[5]={2,3,4,5,7},c=0;
+
+       int i;
+       for (i : t) ///foreach(char ch in myArray) in C#
+       {
+          c=c+1;
+       }
+        cout<<c;

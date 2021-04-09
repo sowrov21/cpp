@@ -1,6 +1,8 @@
 #include <iostream>
+#include<iterator>
 
 using namespace std;
+
 
 int main()
 {
@@ -42,11 +44,37 @@ int main()
         cout<<"\n";
     }
 */
-    ```````````````````````````````````````````````````````````
 
-      ///Array arithmetic operation
+       ///Finding Length of Array using
+
+       int t[5]={2,3,4,5,7},c=0;
+
+       int i;
+       for (i : t) ///foreach(char ch in myArray) in C#
+       {
+          c=c+1;
+       }
+        cout<<c;
+        int a=t.begin();
+
+       ///Finding Length of Array using sizeof() operator
+
+             /*int g[5]={1,2,3,4,5};
+      //One way​ to find the length of an array is to divide the size of
+      //the array by the size of each element (in bytes).
+      //here size of array= [5 elements * (int)4 (bytes) ]=20 / 4= 5 -> array length
+      cout<<"Length of Array "<<sizeof(g)/sizeof(g[0]);
+           */
+
+      ///Array arithmetic operation (+,-,*,/,average)
 
       //int arr_1[3]={2,3,4},arr_2[3]={4,3,2},arr_3[3];
+
+
+
+      //for(int i=0;i<sizeof(g))
+      /*
+
       int arr_1[3],arr_2[3],arr_3[3];
      cout<<"Input arr_1[3]"<<endl;
       int ct=0;
@@ -77,7 +105,7 @@ cout<<"Input arr_2[3]"<<endl;
         for(int b=0;b<3;b++)
         {
             cout<<arr_3[b]<<" ";
-        }
-
+     }
+  */
     return 0;
 }

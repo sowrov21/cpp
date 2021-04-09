@@ -1,7 +1,5 @@
 #include <iostream>
 
-
-
 using namespace std;
 
 class Operation
@@ -53,14 +51,13 @@ class Operation
        */
     }
 
-  public: int Array_Len(int ar[])
+   int Array_Len(int ar[])
     {
-       int i,c=0;
-       for (i : ar) ///foreach(char ch in myArray) in C#
-       {
-           c=c+1;
-       }
-        cout<<"Len: "<<c;
+        int c;
+        for(int i: ar)
+        {
+            c++;
+        }
         return c;
     }
 };
@@ -69,15 +66,13 @@ int main()
 {
 
 
-    int _array[]={1,2,3,4,5,6,7};
+    int _array[]={1,2,3,4,5,6};
     int len= sizeof(_array)/sizeof(_array[0]);
     Operation a;
      a.Add(_array, len);
-
-
-
      int my1[]={1,2,3};
      int my2[]={1,2,3};
+
      a.Add(my1,my2);
 
 
