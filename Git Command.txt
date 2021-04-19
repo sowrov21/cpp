@@ -52,3 +52,11 @@ git remote add origin https://github.com/sowrov21/UMS-java-core-.git
 git branch -M main
 git push -u origin main
 
+
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
